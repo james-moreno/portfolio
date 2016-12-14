@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute']);
+var app = angular.module('app', ['ngRoute', 'ngAnimate']);
 
 app.config(function($routeProvider) {
 $routeProvider
@@ -18,3 +18,10 @@ $routeProvider
         redirectTo: '/'
     });
 });
+
+app.controller('navController', ['$scope', '$location', function($scope, $location){
+    $scope.isActive = function (viewLocation) {
+        return viewLocation === $location.path();
+        };
+    }
+]);

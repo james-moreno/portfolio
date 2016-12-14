@@ -6,20 +6,21 @@
         <link rel="icon" href="/favicon.ico?v=2" />
         <script src="angular/angular.js" charset="utf-8"></script>
         <script src="angular-route/angular-route.js" charset="utf-8"></script>
+        <script src="angular-animate/angular-animate.js" charset="utf-8"></script>
         <script src="assets/app.js" charset="utf-8"></script>
         <link rel="stylesheet" href="/assets/styles.css" media="screen" title="no title">
     </head>
     <body>
-        <div id="container">
-            <div id="box">
+        <div id="container" class="content">
+            <div id="box" ng-controller="navController" >
                 <p id="name_plate">James Moreno</p>
                 <p id="name_sub">Software Developer</p>
-                <a href="#/aboutme" class="nav_word">About Me</a>
-                <a href="#/projects" class="nav_word">Projects</a>
-                <a href="#/contact" class="nav_word">Contact</a>
-                <div ng-view>
+                <a href="#/aboutme" class="nav_word" ng-class="{active: isActive('/aboutme')}">About Me</a>
+                <a href="#/projects" class="nav_word" ng-class="{active: isActive('/projects')}">Projects</a>
+                <a href="#/contact" class="nav_word" ng-class="{active: isActive('/contact')}">Contact</a>
+                <div class="animate" ng-view>
                 </div>
             </div>
-        </div>
+        </div>-
     </body>
 </html>

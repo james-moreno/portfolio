@@ -6,7 +6,7 @@
     "james-moreno <james.luis.moreno@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/james-moreno/portfolio",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular": "^1.5.8",
-    "angular-route": "^1.5.8"
+    "angular-route": "^1.5.8",
+    "angular-animate": "1.5.8"
   }
 }
