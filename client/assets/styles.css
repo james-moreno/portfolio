@@ -62,7 +62,7 @@ body {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 600;
-    color: #00cccc;
+    color: #e03131;
     display: block;
     text-align: left;
     margin-top: 1%;
@@ -88,7 +88,6 @@ body {
     font-size: 42px;
     font-family: Century, sans-serif;
     font-weight: 600;
-    margin-top: 8%;
 }
 #name_sub {
     font-size: 20px;
@@ -102,5 +101,14 @@ body {
 }
 #container {
     text-align: center;
-    margin-bottom: 8%;
+    width: 100%;
+}
+#box {
+    padding: 15px;
+    position: absolute;
+    border: 3px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px;
 }
