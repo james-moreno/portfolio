@@ -68,7 +68,7 @@ body {
     margin-top: 1%;
 }
 .link:hover {
-    text-decoration: underline;
+    color: #1FCECE;
 }
 .contact_link {
     margin-left: 20%;
@@ -107,6 +107,7 @@ body {
     padding: 15px;
     position: absolute;
     border: 3px solid black;
+    border-radius: 15px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
