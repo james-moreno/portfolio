@@ -109,20 +109,20 @@ body {
     color: #c65f5f;
     font-weight: 700;
 }
+#partials {
+    padding: 10em 2em 0em 2em;
+    position: absolute;
+    display: inline-block;
+    width: 75vw;
+}
 #nav_box {
     display: inline-block;
     margin-top: 7vh;
     min-height: 80vh;
-    width: 15vw;
-    min-width: 17vw;
+    min-width: 10em;
+    width: 17vw;
     padding: 1em;
     border-right: 1.2em solid black;
-}
-#partials {
-    padding: 7em 2em 0em 2em;
-    position: absolute;
-    display: inline-block;
-    width: 70vw;
 }
 @@media screen and (max-device-width: 480px) {
 .project_info { font-size: 6vw;
