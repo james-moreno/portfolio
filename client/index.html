@@ -11,14 +11,15 @@
     </head>
     <body>
         <div id="container" class="content">
-            <div id="box"  ng-controller="navController" >
+            <div id="nav_box"  ng-controller="navController" >
+                <img id="pic" src="assets/img/jimmy_crop.jpg" alt="">
                 <p id="name_plate">James Moreno</p>
                 <p id="name_sub">Software Developer</p>
                 <a href="#/aboutme" class="nav_word" ng-class="{active: isActive('/aboutme')}">About Me</a>
                 <a href="#/projects" class="nav_word" ng-class="{active: isActive('/projects')}">Projects</a>
                 <a href="#/contact" class="nav_word" ng-class="{active: isActive('/contact')}">Contact</a>
-                <div class="animate" ng-view></div>
             </div>
+            <div id="partials" ng-view></div>
         </div>-
     </body>
 </html>
