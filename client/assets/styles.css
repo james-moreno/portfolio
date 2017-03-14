@@ -139,10 +139,17 @@ body {
     font-size: 1em;
     font-family: sans-serif;
 }
-.projectImg {
-    border: 1px solid black;
+#projectImgThree {
     width: auto;
-    height: 200px;;
+    height: 200px;
+}
+#projectImgTwo {
+    width: 100%;
+    height: auto;
+}
+.projectImg {
+    height: 200px;
+    border: 1px solid black;
     border-radius: 5px;
 }
 .projectLink {
