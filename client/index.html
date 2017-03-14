@@ -10,16 +10,24 @@
         <link rel="stylesheet" href="/assets/styles.css" media="screen" title="no title">
     </head>
     <body>
-        <div id="container" class="content">
-            <div id="nav_box"  ng-controller="navController" >
-                <img id="pic" src="assets/img/jimmy_crop.jpg" alt="">
-                <p id="name_plate">James Moreno</p>
-                <p id="name_sub">Software Developer</p>
-                <a href="#/aboutme" class="nav_word" ng-class="{active: isActive('/aboutme')}">About Me</a>
-                <a href="#/projects" class="nav_word" ng-class="{active: isActive('/projects')}">Projects</a>
-                <a href="#/contact" class="nav_word" ng-class="{active: isActive('/contact')}">Contact</a>
+        <div id="container">
+            <div id="nav_box" class="dropIn animated-quick" ng-controller="navController" >
+                <div id="navLogoBox" class="imgBox">
+                    <img id="logo" src="assets/img/JLMLogo.png">
+                </div>
+                <div id="name_stuff">
+                    <p id="name_plate">James Moreno</p>
+                    <p id="name_sub">software developer</p>
+                </div>
+                <div id="navLinksBox">
+                    <a href="#/aboutme" class="nav_word" ng-class="{active: isActive('/aboutme')}">about</a>
+                    <a href="#/projects" class="nav_word" ng-class="{active: isActive('/projects')}">code</a>
+                    <a href="#/contact" class="nav_word" ng-class="{active: isActive('/contact')}">contact</a>
+                </div>
             </div>
+            <div id="letterBoxTop"></div>
             <div id="partials" ng-view></div>
-        </div>-
+            <div id="letterBoxBottom"></div>
+        </div>
     </body>
 </html>
