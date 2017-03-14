@@ -141,8 +141,9 @@ body {
 }
 .projectImg {
     border: 1px solid black;
-    width: 80%;
+    width: auto;
     height: 200px;;
+    border-radius: 5px;
 }
 .projectLink {
     font-size: 1em;
@@ -151,6 +152,10 @@ body {
     border: 1px solid black;
     border-radius: 3px;
     padding: 10px 5px 10px 5px;
+}
+.projectLink:hover {
+    background: #282828;
+    color: #cccccc;
 }
 .contact_info{
     font-size: 2em;
@@ -173,6 +178,7 @@ body {
 }
 #phone {
     font-size: 2em;
+    margin-top: 1em;
 }
 #logo {
     width: 5em;
