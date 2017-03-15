@@ -40,24 +40,33 @@ body {
 * {
     color: #282828;
 }
+
 .nav_word {
     font-size: 1.9em;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
-    display: block;
     text-decoration: none;
     margin: 0em .5em 0em .5em;
 }
+
 .nav_word:hover {
     text-decoration: underline;
 }
 #skillsTitle {
-    font-size: 2em;
-    font-family: 'Ubuntu', sans-serif;
-}
-.skillList {
     font-size: 1.5em;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+    height: 31px;
+}
+
+.skillList {
+    font-size: 1.15em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    letter-spacing: .75px;
+    margin-bottom: 5px;
 }
 #aboutMeTitle {
     font-size: 2em;
@@ -68,15 +77,15 @@ body {
 }
 .aboutMe {
     text-indent: 3em;
-    font-size: 1.4em;
+    font-size: 1.25em;
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.3;
-    margin-top: .5em;
-    margin-bottom: .5em;
+    letter-spacing: 1px;
+    margin-top: .75em;
+    margin-bottom: .75em;
 }
 #aboutContainer {
-    padding: 1em;
     background: #cccccc;
     opacity: .95;
     border: 1px solid #282828;
@@ -135,7 +144,9 @@ body {
     margin-bottom: 1em;
     text-indent: 2em;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.3;
     font-family: 'Ubuntu', sans-serif;
 }
 #projectImgThree {
@@ -200,18 +211,21 @@ body {
     height: 8em;
     border: 1px solid #282828;
     border-radius: 3px;
+    display: block;
 }
 #navLogoBox {
     float: left;
+    margin-left: 35px;
 }
 #navLinksBox {
     display: inline-block;
     float: right;
     margin-top: 1.5em;
+    margin-right: 35px;
 }
 #name_stuff {
-    position: relative;
-    left: 10%;
+    float: left;
+    margin-left: 20px;
 }
 #name_plate {
     font-size: 3em;
@@ -223,20 +237,25 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: #9b9b9b;
     font-weight: 700;
-    margin-top: .5em;
 }
+
 #name_sub:hover {
     color: #c65f5f;
     font-weight: 700;
 }
+
 .imgSkillsBox, .nav_word, #name_stuff {
     display: inline-block;
 }
+
 .imgSkillsBox {
-    width: 25%;
+    width: 18%;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
+    margin-top: 4%;
 }
+
 #container {
     width: 100%;
     min-height: 50vh;
@@ -244,33 +263,35 @@ body {
 }
 #partials {
     display: flex;
-    width: 90%;
-    min-height: 50vh;
+    width: 75%;
+    min-height: 40vh;
     margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3em;
+    margin-bottom: auto;
 }
+
 #nav_box {
     display: inline-block;
     background: #cccccc;
-    width: 90%;
+    width: 75%;
     height: 80px;
     padding: 1em;
     border-bottom: 20px solid #282828;
     border-right:1px solid #282828;
     border-left:1px solid #282828;
     animation-delay: 1s;
-    position: relative;
+    position: absolute;
     top: -132px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index: 99999;
     left:0;
-    margin-left: 4%;
+    margin-left: 11.5%;
     position: absolute;
     opacity: .9;
 }
+
 #contactContainer {
     margin-top:4em;
     background: #cccccc;
@@ -294,8 +315,8 @@ body {
 }
 #letterBoxBottom {
     position: absolute;
+    left: 0;
     bottom: 0;
-    vertical-align: bottom;
     z-index: 0
 }
 .animated-quick {
