@@ -42,7 +42,7 @@ body {
 }
 .nav_word {
     font-size: 1.9em;
-    font-family: Century, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     display: block;
     text-decoration: none;
@@ -53,11 +53,11 @@ body {
 }
 #skillsTitle {
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .skillList {
     font-size: 1.5em;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 #aboutMeTitle {
     font-size: 2em;
@@ -70,7 +70,7 @@ body {
     text-indent: 3em;
     font-size: 1.4em;
     font-weight: 400;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     line-height: 1.3;
     letter-spacing: 1px;
     margin-top: .5em;
@@ -98,7 +98,7 @@ body {
 }
 .link {
     font-size: 1.5em;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     color: #282828;
     display: block;
@@ -129,7 +129,7 @@ body {
 .projectTitle {
     font-size: 1.5em;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .project_info {
     margin-top: .5em;
@@ -137,7 +137,7 @@ body {
     text-indent: 2em;
     text-align: left;
     font-size: 1em;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 #projectImgThree {
     width: auto;
@@ -154,7 +154,7 @@ body {
 }
 .projectLink {
     font-size: 1em;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     border: 1px solid black;
     border-radius: 3px;
@@ -166,7 +166,7 @@ body {
 }
 .contact_info{
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 1.3
 }
@@ -191,6 +191,7 @@ body {
 #logo {
     width: 5em;
     height: 5em;
+    opacity: .8;
 }
 #pic {
     width: 8em;
@@ -211,13 +212,13 @@ body {
     left: 10%;
 }
 #name_plate {
-    font-size: 2em;
-    font-family: Century, sans-serif;
-    font-weight: 600;
+    font-size: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
 }
 #name_sub {
     font-size: 1.3em;
-    font-family: Century, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #9b9b9b;
     font-weight: 700;
     margin-top: .5em;
@@ -266,6 +267,7 @@ body {
     left:0;
     margin-left: 4%;
     position: absolute;
+    opacity: .9;
 }
 #contactContainer {
     margin-top:4em;
