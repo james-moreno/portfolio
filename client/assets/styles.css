@@ -136,7 +136,7 @@ body {
     margin-bottom: 1em;
     text-indent: 2em;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Ubuntu', sans-serif;
 }
 #projectImgThree {
@@ -153,6 +153,9 @@ body {
     border-radius: 5px;
 }
 .projectLink {
+    min-width: 20px;
+    display: block;
+    margin-top: 1em;
     font-size: 1em;
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
